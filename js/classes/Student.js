@@ -1,11 +1,12 @@
 // Vous mettrez ici le code de la classe Student
+
 class Student  extends Person {
     #nombres;
     #moyenne;
 
-    constructor(nombres, moyenne) {
-
-        console.log(Student)
+    constructor(nom, prenom, age, genre, interet, nombres, moyenne) {
+        super(nom, prenom, age, genre, interet)
+        
         this.#nombres = nombres;
         this.#moyenne = moyenne;
     }

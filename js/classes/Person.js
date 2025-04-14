@@ -8,7 +8,6 @@ class Person {
 
     constructor(nom, prenom, age, genre, interet) {
 
-        console.log(Person)
         this.#nom = nom;
         this.#prenom = prenom;
         this.#age = age;
