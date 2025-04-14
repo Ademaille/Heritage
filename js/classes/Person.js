@@ -5,4 +5,14 @@ class Person {
     #age;
     #genre;
     #interet;
+
+        constructor(nom, prenom, age, genre, interet) {
+
+            console.log(Person)
+            this.#nom = nom;
+            this.#prenom = prenom;
+            this.#age = age;
+            this.#genre = genre;
+            this.#interet = interet;
+        }
 }
